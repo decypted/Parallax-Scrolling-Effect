@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -7,11 +6,11 @@
 }
 
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Merriweather', sans-serif;
 }
 
 .container{
-    max-width: 70rem;
+    max-width: 80rem;
     padding: 0 2rem;
     margin: 0 auto;
 }
@@ -162,6 +161,15 @@ section .container{
     justify-content: center;
     min-height: 100vh;
 }
+section .container-gridsingle{
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+}
 
 section img{
     width: 100%;
@@ -181,8 +189,8 @@ section .container > *{
 }
 
 .title{
-    font-weight: 600;
-    font-size: 1.5rem;
+    font-weight: bold;
+    font-size: 1.8rem;
     margin-bottom: 1rem;
     padding-bottom: .5rem;
     position: relative;
@@ -207,9 +215,7 @@ section .container > *{
     background: linear-gradient(to top, #151515, transparent);
 }
 
-.opacity{
-    opacity: 0;
-}
+
 
 @media (max-width: 850px){
     section .container{
@@ -229,4 +235,27 @@ section .container > *{
     .title{
         font-size: 1.2rem;
     }
+}
+
+.imageSkelContainer {
+    width: 100%;
+
+}
+
+.skelpng {
+    width: 10%;
+}
+
+.mt-5 {
+    margin-top: 5em;
+}
+
+.para-w {
+    width: 40%;
+}
+
+.para-head {
+    position: absolute;
+    top: 1px;
+    
 }
