@@ -171,6 +171,37 @@ section .container-gridsingle{
     text-align: center;
 }
 
+.autospy-grid {
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-content: center;
+    min-height: 30vh;
+    text-align: center;
+    display: grid;
+    gap: 5px;
+}
+.as-grid {
+    background-color: rgb(58, 58, 58);
+    color: white;
+    height: auto;
+}
+.as-grid-2 {
+    grid-template-columns: repeat(1, 1fr);
+    height: auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-resize {
+    width: 50%;
+}
 section img{
     width: 100%;
 }
@@ -248,6 +279,13 @@ section .container > *{
 
 .mt-5 {
     margin-top: 5em;
+}
+.mt-2 {
+    margin-top: 1em;
+}
+
+.autospy-p {
+    font-size: 16px;
 }
 
 .para-w {
