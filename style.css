@@ -181,9 +181,15 @@ section .container-gridsingle{
     gap: 5px;
 }
 .as-grid {
-    background-color: rgb(58, 58, 58);
+    background-color: rgb(24, 24, 24);
     color: white;
     height: auto;
+    border: 1px solid rgba(255, 255, 255, 0.082);
+    border-radius: 4px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .as-grid-2 {
     grid-template-columns: repeat(1, 1fr);
@@ -296,4 +302,59 @@ section .container > *{
     position: absolute;
     top: 1px;
     
+}
+
+.diety-wrapper {
+    width: 50em;
+    margin-top: 3em;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    border-radius: 4px;
+    background-color: #151515;
+    border: 1px solid rgb(98, 145, 98);
+    padding-left: 2em;
+    padding-right: 2em;
+    box-shadow: 1px 1px 12px 1px rgba(172, 255, 47, 0.101);
+}
+
+.diety h1{
+    color: white;
+    margin-top: 50px;
+}
+.diety-wrap-2 {
+    width: 50em;
+    margin-top: 3em;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    border-radius: 4px;
+    background-image: url(/img/OIG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.oig {
+    width: 100%;
+    height: 50%;
+}
+
+.src {
+    margin-top: 5em;
+    color: aqua;
+}
+
+a {
+    color: aquamarine;
+    transition: 300ms ease-in-out;
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(149, 255, 0);
 }
